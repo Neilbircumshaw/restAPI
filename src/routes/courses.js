@@ -19,7 +19,7 @@ router.get("/", (req, res, next) => {
 })
 //----------------------------------------------------------------------------------------------//
 
-//GET /api/course/:courseId review.user.fullName
+//GET /api/courses/:courseId review.user.fullName
 
 router.get("/:courseId", (req, res, next) => {
 
